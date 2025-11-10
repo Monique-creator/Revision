@@ -1,12 +1,6 @@
-cat > setup.sh <<EOL
 #!/bin/bash
 mkdir -p essays reports
-echo "Project setup completed on \$(date)" > setup.log
+echo "Project setup completed on $(date)" > setup.log
 echo "Directories created: essays, reports" >> setup.log
 echo "Setup successful!" >> setup.log
-EOL
-
-# Make it executable
-chmod +x setup.sh
-
 
